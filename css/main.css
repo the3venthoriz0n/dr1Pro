@@ -1,12 +1,12 @@
 
 html, body{
-	background: url("../img/phantom.jpg");
-	background-repeat: repeat-x;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background: url("../img/phantom.jpg");
+    background-repeat: repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
 #bgOverlay {
@@ -21,13 +21,39 @@ html, body{
     background-color: rgba(34,28,28,.9)
 }
 
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+}
+
+nav a{
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: .34em;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    color: orange;
+}
+
+
+
+
 
 #titleArea {
-
     height: 10em;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -35,27 +61,29 @@ html, body{
     text-align: center;
 }
 
-#titleArea h1{
-	
-	font-size: 120px;
-	line-height: 1em;
-	text-decoration: none;
-	font-style: normal;
-	margin: 0 0 15px;
-	display: inline-block;
-	width: 100%;
-}
 
+#titleArea h1{
+    
+    font-size: 120px;
+    line-height: 1em;
+    text-decoration: none;
+    font-style: normal;
+    margin: 0 0 15px;
+    display: inline-block;
+    width: 100%;
+}
 
 #titleArea a {
-	font-weight: lighter;
-	text-decoration: none;
-	letter-spacing: 0.0166667em; 
+    font-weight: 100;
+    text-decoration: none;
+    letter-spacing: 0.0166667em; 
     color: white;
-     }
+}
 
 #titleArea p{
-	letter-spacing: 0.5em;
-	color: #70e8c7;
+    font-weight: 300;
+    letter-spacing: 0.5em;
+    color: #70e8c7;
 }
+
 
