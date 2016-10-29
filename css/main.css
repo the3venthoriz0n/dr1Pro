@@ -22,18 +22,23 @@ html, body{
 }
 
 /* Navigation Bar */
-nav ul {
+
+#main-nav{
+    text-align: center;
+}
+#main-nav ul {
     list-style-type: none;
     margin: 15px;
     padding: 0;
 }
 
-nav li{
+#main-nav li{
     display: inline;
     padding: 20px;
 }
 
-nav a{
+#main-nav a{
+    display: inline-block;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: .34em;
@@ -41,13 +46,15 @@ nav a{
     color: white;
 }
 
-nav li a:hover{
-    color: orange;
+#main-nav li a:hover{
+    color: #eac381;
 }
 
+.active{
+    color: red;
+}
 
-
-
+/*End Navbar*/
 
 #titleArea {
     height: 10em;
