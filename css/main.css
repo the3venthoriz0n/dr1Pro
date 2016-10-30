@@ -38,6 +38,7 @@ html, body{
 }
 
 #main-nav a{
+    opacity: .4;
     display: inline-block;
     font-weight: 300;
     font-size: 15px;
@@ -47,11 +48,13 @@ html, body{
 }
 
 #main-nav li a:hover{
+    opacity: 1;
     color: #eac381;
 }
 
-.active{
-    color: red;
+#main-nav ul li .active{
+    opacity: 1;
+
 }
 
 /*End Navbar*/
