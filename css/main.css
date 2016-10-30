@@ -1,6 +1,6 @@
 
 html, body{
-    background: url("../img/phantom.jpg");
+    background: url("../img/phantom.jpg") no-repeat center center fixed;
     background-repeat: repeat-x;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -52,7 +52,7 @@ html, body{
     color: #eac381;
 }
 
-#main-nav ul li .active{
+#main-nav ul li a .active{
     opacity: 1;
 
 }
