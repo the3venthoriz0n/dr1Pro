@@ -52,7 +52,7 @@ html, body{
     color: #eac381;
 }
 
-#main-nav ul li a .active{
+#main-nav ul li .active{
     opacity: 1;
 
 }
@@ -95,5 +95,8 @@ html, body{
     letter-spacing: 0.5em;
     color: #70e8c7;
 }
+
+
+
 
 
