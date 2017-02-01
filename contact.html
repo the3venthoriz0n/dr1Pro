@@ -34,7 +34,19 @@
 			<!-- Site Title or Logo -->
 			<div id="innerWrapper"> 
 
-				<form class="form" action="contact.php">
+				<form method="post" name="myemailform" action="form-to-email.php">
+				 
+				Enter Name: <input type="text" name="name">
+				 
+				Enter Email Address:    <input type="text" name="email">
+				 
+				Enter Message:  <textarea name="message"></textarea>
+				 
+				<input type="submit" value="Send Form">
+				</form>
+
+
+<!-- 				<form class="form" action="contact.php">
 
 					<p class="name">
 						<input type="text" name="name" id="name" placeholder="John Doe" />
@@ -53,7 +65,7 @@
 					<p class="submit">
 						<input type="submit" value="Send" />
 					</p>
-				</form>
+				</form> -->
 
 
 			</div>

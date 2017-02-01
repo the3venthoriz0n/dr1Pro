@@ -1,17 +1,17 @@
 <?php
 /* send the submitted data */
-$name=$_REQUEST['name'];
-$email=$_REQUEST['email'];
-$message=$_REQUEST['message'];
+$name=$_GET['name'];
+$email=$_GET['email'];
+$message=$_GET['message'];
 if (($name=="")||($email=="")||($message==""))
 {
   echo "All fields are required, please fill <a href=\"\">the form</a> again.";
 }
-else{		
- $from="From: $name<$email>\r\nReturn-path: $email";
- $subject="Message sent using your contact form";
- mail("andrewkpln@gmail.com", $subject, $message, $from);
- echo "Email sent!";
+else{
+    $headers = "From: $name<$email>\r\nReturn-path: $email";		
+    $subject="DR1PRO";
+    mail("indrewjones@gmail.com", $subject, $message, $headers);
+    echo "Email sent!";
 }
 
 ?>
